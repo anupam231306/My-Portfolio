@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Portfolio</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section home">
+        <h1>Welcome to Anupam's Portfolio</h1>
+        <p>Driven by a deep passion for protecting digital landscapes, I am a dedicated cybersecurity enthusiast committed to exploring the latest in threat detection and prevention.</p>
+    </section>
+
+    <section id="about" class="section about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Anupam upadhyay call sign Anu, a passionate cyber secuirity enthusiast dedicated to safeguarding the digital realm. With a robust background in network security and ethical hacking, my mission is to protect sensitive information from ever-evolving cyber threats.</p>
+    </section>
+
+    <section id="projects" class="section projects">
+        <h2>Skills</h2>
+        <div class="project-list">
+            <div class="project-item">
+                <h3>Skill 1</h3>
+                <p>Very Handy to html. Enjoys getting and solving errors</p>
+            </div>
+            <div class="project-item">
+                <h3>Skill 2</h3>
+                <p>Manipulative thinking for cyber secuirity.</p>
+            </div>
+            <div class="project-item">
+                <h3>Skill 3</h3>
+                <p>Analytical thinking regarding some sort of coding.</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Anupam upadhyay. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
